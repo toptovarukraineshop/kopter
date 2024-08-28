@@ -23,7 +23,23 @@
       <meta property="og:url" content="">
 
 	
-     
+     <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '431915619886489');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=431915619886489&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 
 
       
@@ -418,8 +434,8 @@
                           var message = `Нове замовлення(дрон):\nІм'я: ${name}\nТелефон: ${phone}`;
                           
                           // Telegram API variables
-                          var token = '7235159890:AAElxiOr8rV9lI6pY5ZTeqCrhJvyAQatrmE'; // Replace with your Telegram bot token
-                          var chatId = 1404908930; // Replace with your Telegram chat ID
+                          var token = '7344059912:AAHsu2MGefYRG6KLnLGfSZwzokdchiXqmb0'; // Replace with your Telegram bot token
+                          var chatId = 1660407358; // Replace with your Telegram chat ID
                           
                           // Send message via Telegram API
                           fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
